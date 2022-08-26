@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 75px;
+    font-family: museo-sans, sans-serif;
+    font-weight: lighter;
+    color: #333;
+    text-align: center;
+}
+
+img {
+    margin: 15px;
+    padding: 0;
+    border-radius: 100%;
+    transition: 0.2s;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px 10px rgba(179, 179, 179, 0.5);
+    transition: 0.2s;
+}
+
+#main-sponsor, #co-sponsor, #others {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 5%;
+    list-style: none;
+}
+
+#main-sponsor {
+    justify-content: center;
+}
+
+.ms-item img {
+    width: 300px;
+    height: 300px;
+}
+
+.cs-item img {
+    width: 180px;
+    height: 180px;
+}
+
+.ot-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.separator {
+    max-width: 80%;
+    margin: 20px auto 5px;
+}
+
